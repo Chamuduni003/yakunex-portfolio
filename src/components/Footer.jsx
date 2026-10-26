@@ -1,5 +1,5 @@
 import React from 'react';
-import { Rocket } from 'lucide-react';
+import logo from '../assets/logo.png';
 
 const Footer = () => {
   return (
@@ -8,15 +8,14 @@ const Footer = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           
-          {/* Brand Info */}
+          {/* Brand Info with Mask Logo */}
           <div className="space-y-4 md:col-span-1">
-            <div className="flex items-center space-x-2">
-              <div className="bg-brandBlue p-1.5 rounded-lg">
-                <Rocket className="w-5 h-5 text-white" />
+            <div className="flex items-center space-x-3">
+              <img src={logo} alt="Yakunex Logo" className="h-10 w-auto object-contain" />
+              <div className="flex flex-col">
+                <span className="text-lg font-bold text-white tracking-wide leading-tight">Yakunex</span>
+                <span className="text-[9px] text-amber-400 font-semibold uppercase leading-tight">Technologies</span>
               </div>
-              <span className="text-lg font-bold text-white tracking-wide">
-                Yakunex<span className="text-brandBlue">.tech</span>
-              </span>
             </div>
             <p className="text-xs leading-relaxed text-slate-500">
               Innovating digital futures through software engineering, cloud architecture, and custom application development.
@@ -42,7 +41,6 @@ const Footer = () => {
               <li>Web Application Systems</li>
               <li>Mobile App Engineering</li>
               <li>Cloud & AI Integration</li>
-             
             </ul>
           </div>
 
@@ -50,9 +48,9 @@ const Footer = () => {
           <div>
             <h4 className="text-white font-semibold text-sm mb-4">Get in Touch</h4>
             <p className="text-xs text-slate-500 leading-relaxed">
-              Yakunex Technologies(Pvt)Ltd<br />
-              88/11/1/2, Williyam Gopallawa MW, Kandy<br />
-              yakunextechnologies@gmail.com
+              88/11/1/2, William Gopallawa MW<br />
+              Kandy, Sri Lanka<br />
+              chamudunihitihamu1204@gmail.com
             </p>
           </div>
 
