@@ -1,16 +1,41 @@
-# React + Vite
+# Yakunex Technologies - Corporate Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive corporate portfolio website built for **Yakunex Technologies (Pvt) Ltd** as part of the Internship Practical Assessment.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌐 Live Demo & Repository Links
 
-## React Compiler
+* **Live Production URL:** [https://yakunex-portfolio.vercel.app](https://yakunex-portfolio.vercel.app)
+* **GitHub Repository:** [https://github.com/Chamuduni003/yakunex-portfolio](https://github.com/Chamuduni003/yakunex-portfolio)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack & Dependencies
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Frontend Framework:** React 18 (Vite)
+* **Styling:** Tailwind CSS v3
+* **Icon Library:** Lucide-React
+* **Form Handling:** Formspree API (Live Email Delivery)
+* **Hosting & CI/CD:** Vercel
+
+---
+
+## ✨ Features Implemented
+
+1. **Navbar:** Sticky navigation with responsive mobile menu toggle.
+2. **Hero Section:** Corporate branding with tagline, CTA buttons, and value propositions.
+3. **About Us Section:** Vision, Mission, and Core Values breakdown.
+4. **Services Section:** Dynamic grid layout mapping corporate service offerings from JSON data.
+5. **Portfolio Section:** Project showcase featuring interactive category filtering (`All`, `Web`, `Mobile`, `AI`).
+6. **Contact Us Section:** Functional contact form integrated with Formspree for direct email dispatch.
+7. **Footer:** Quick navigation links and company metadata.
+
+---
+
+## 🚀 Local Setup Instructions
+
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/Chamuduni003/yakunex-portfolio.git](https://github.com/Chamuduni003/yakunex-portfolio.git)
+   cd yakunex-portfolio
