@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Menu, X, Rocket } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
+import logo from '../assets/logo.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,14 +19,21 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           
           {/* Logo Section */}
-          <div className="flex items-center space-x-2 cursor-pointer">
-            <div className="bg-brandBlue p-2 rounded-lg">
-              <Rocket className="w-6 h-6 text-white" />
+          <a href="#home" className="flex items-center space-x-3 cursor-pointer group">
+            <img 
+              src={logo} 
+              alt="Yakunex Technologies Logo" 
+              className="h-10 w-auto object-contain group-hover:scale-105 transition-transform duration-200"
+            />
+            <div className="flex flex-col">
+              <span className="text-lg font-bold tracking-wide group-hover:text-brandBlue transition-colors leading-tight">
+                Yakunex
+              </span>
+              <span className="text-[9px] text-amber-400 font-semibold tracking-widest uppercase leading-tight">
+                Technologies
+              </span>
             </div>
-            <span className="text-xl font-bold tracking-wide">
-              Yakunex<span className="text-brandBlue">.tech</span>
-            </span>
-          </div>
+          </a>
 
           {/* Desktop Navigation Links */}
           <div className="hidden md:flex items-center space-x-8">
