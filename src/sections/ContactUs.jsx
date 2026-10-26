@@ -4,15 +4,30 @@ import { Mail, Phone, MapPin, Send, CheckCircle } from 'lucide-react';
 const ContactUs = () => {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    if (formData.name && formData.email && formData.message) {
-      setSubmitted(true);
-      setTimeout(() => {
-        setSubmitted(false);
+    setLoading(true);
+
+    try {
+      const response = await fetch('https://formspree.io/f/mbgggglr', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify(formData)
+      });
+
+      if (response.ok) {
+        setSubmitted(true);
         setFormData({ name: '', email: '', message: '' });
-      }, 4000);
+      }
+    } catch (error) {
+      console.error("Error submitting form:", error);
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -49,6 +64,7 @@ const ContactUs = () => {
                   <label className="block text-slate-300 text-sm font-medium mb-2">Name</label>
                   <input
                     type="text"
+                    name="name"
                     required
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
@@ -61,6 +77,7 @@ const ContactUs = () => {
                   <label className="block text-slate-300 text-sm font-medium mb-2">Email Address</label>
                   <input
                     type="email"
+                    name="email"
                     required
                     value={formData.email}
                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
@@ -73,6 +90,7 @@ const ContactUs = () => {
                   <label className="block text-slate-300 text-sm font-medium mb-2">Message</label>
                   <textarea
                     rows="4"
+                    name="message"
                     required
                     value={formData.message}
                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
@@ -83,10 +101,11 @@ const ContactUs = () => {
 
                 <button
                   type="submit"
+                  disabled={loading}
                   className="w-full bg-brandBlue hover:bg-blue-600 text-white font-semibold py-3.5 rounded-xl shadow-lg shadow-blue-500/25 transition-all duration-200 flex items-center justify-center space-x-2"
                 >
                   <Send className="w-4 h-4" />
-                  <span>Send Message</span>
+                  <span>{loading ? "Sending..." : "Send Message"}</span>
                 </button>
               </form>
             )}
@@ -102,9 +121,9 @@ const ContactUs = () => {
                   <MapPin className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="text-white font-semibold text-sm">Yakunex Technologies(Pvt)Ltd</h4>
+                  <h4 className="text-white font-semibold text-sm">Yakunex Technologies (Pvt) Ltd</h4>
                   <p className="text-slate-400 text-sm mt-1 leading-relaxed">
-                    88/11/1/2, Williyam Gopallawa MW, Kandy
+                    88/11/1/2, William Gopallawa MW, Kandy
                   </p>
                 </div>
               </div>
@@ -115,7 +134,9 @@ const ContactUs = () => {
                 </div>
                 <div>
                   <h4 className="text-white font-semibold text-sm">Phone</h4>
-                  <p className="text-slate-400 text-sm mt-1">(+94 74 283 6771)</p>
+                  <a href="tel:+94742836771" className="text-slate-400 hover:text-brandBlue text-sm mt-1 block">
+                    (+94 74 283 6771)
+                  </a>
                 </div>
               </div>
 
@@ -125,12 +146,13 @@ const ContactUs = () => {
                 </div>
                 <div>
                   <h4 className="text-white font-semibold text-sm">Email</h4>
-                  <p className="text-slate-400 text-sm mt-1">chamudunihitihamu1204@gmail.com</p>
+                  <a href="mailto:chamudunihitihamu1204@gmail.com" className="text-slate-400 hover:text-brandBlue text-sm mt-1 block">
+                    chamudunihitihamu1204@gmail.com
+                  </a>
                 </div>
               </div>
             </div>
 
-            {/* Map / Placeholder Visual Card */}
             <div className="bg-slate-900/60 border border-slate-800 p-6 rounded-2xl text-center flex flex-col items-center justify-center h-48">
               <MapPin className="w-8 h-8 text-brandBlue mb-2" />
               <p className="text-slate-300 font-semibold text-sm">Global Operations Hub</p>
