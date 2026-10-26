@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Software Development",
+    "description": "Custom enterprise desktop & web application development tailored to streamline client operations.",
+    "icon": "Code2"
+  },
+  {
+    "id": 2,
+    "title": "Web Development",
+    "description": "Modern, fast, and fully responsive websites built using modern JavaScript stacks.",
+    "icon": "Globe"
+  },
+  {
+    "id": 3,
+    "title": "Mobile Apps",
+    "description": "Cross-platform iOS and Android mobile solutions with sleek, intuitive user experiences.",
+    "icon": "Smartphone"
+  },
+  {
+    "id": 4,
+    "title": "AI & ML",
+    "description": "Intelligent business automation, data analytics, and custom machine learning algorithms.",
+    "icon": "Brain"
+  },
+  {
+    "id": 5,
+    "title": "Cloud & DevOps",
+    "description": "Scalable cloud deployment, infrastructure management, and continuous development pipelines.",
+    "icon": "Cloud"
+  },
+  {
+    "id": 6,
+    "title": "Cybersecurity",
+    "description": "Comprehensive security audits, vulnerability scanning, and robust endpoint protection.",
+    "icon": "ShieldCheck"
+  }
+]
