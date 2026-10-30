@@ -1,41 +1,53 @@
-# Yakunex Technologies - Corporate Portfolio Website
+# Yakunex Technologies (Pvt) Ltd - Corporate Portfolio Website
 
-A modern, responsive corporate portfolio website built for **Yakunex Technologies (Pvt) Ltd** as part of the Internship Practical Assessment.
-
----
-
-## 🌐 Live Demo & Repository Links
-
-* **Live Production URL:** [https://yakunex-portfolio.vercel.app](https://yakunex-portfolio.vercel.app)
-* **GitHub Repository:** [https://github.com/Chamuduni003/yakunex-portfolio](https://github.com/Chamuduni003/yakunex-portfolio)
+A modern, high-performance, and responsive corporate portfolio website built for **Yakunex Technologies (Pvt) Ltd** (Kandy, Sri Lanka). This project showcases the company's full spectrum of IT services, interactive hardware/software project portfolios, and an integrated contact system.
 
 ---
 
-## 🛠️ Tech Stack & Dependencies
+## 🚀 Live Demo
 
-* **Frontend Framework:** React 18 (Vite)
-* **Styling:** Tailwind CSS v3
-* **Icon Library:** Lucide-React
-* **Form Handling:** Formspree API (Live Email Delivery)
-* **Hosting & CI/CD:** Vercel
+- **Live URL**: [yakunex-portfolio.vercel.app](https://yakunex-portfolio.vercel.app)
+- **GitHub Repository**: [github.com/Chamuduni003/yakunex-portfolio](https://github.com/Chamuduni003/yakunex-portfolio)
 
 ---
 
-## ✨ Features Implemented
+## 🛠 Tech Stack & Architecture
 
-1. **Navbar:** Sticky navigation with responsive mobile menu toggle.
-2. **Hero Section:** Corporate branding with tagline, CTA buttons, and value propositions.
-3. **About Us Section:** Vision, Mission, and Core Values breakdown.
-4. **Services Section:** Dynamic grid layout mapping corporate service offerings from JSON data.
-5. **Portfolio Section:** Project showcase featuring interactive category filtering (`All`, `Web`, `Mobile`, `AI`).
-6. **Contact Us Section:** Functional contact form integrated with Formspree for direct email dispatch.
-7. **Footer:** Quick navigation links and company metadata.
+- **Frontend Framework**: React 18 (bootstrapped with Vite)
+- **Styling**: Tailwind CSS (Custom Dark Navy `#0b1329` & Gold `#eab308` theme)
+- **Iconography**: Lucide React
+- **Email Delivery Service**: EmailJS (Client-side SMTP integration)
+- **Deployment**: Vercel
 
 ---
 
-## 🚀 Local Setup Instructions
+## ✨ Key Features & Functionalities
 
-1. Clone the repository:
+1. **Interactive Navigation**:
+   - Dynamic active section tracking on scroll with glowing underline indicators.
+   - Smooth anchor scrolling across `#home`, `#about`, `#services`, `#portfolio`, and `#contact`.
+
+2. **Capabilities & Services Section**:
+   - Filterable service grid by category (Development, AI/Cloud, Security, Consulting).
+   - Real-time instant search input.
+   - Conceptual project badging and service breakdown.
+
+3. **Projects & Portfolio Section**:
+   - Interactive project showcase (Software & Hardware prototypes like AirGuard PCB).
+   - Detailed modal popups for technical specifications.
+
+4. **Working Contact System**:
+   - Direct contact form with real-time feedback (success/error states).
+   - Automated routing via EmailJS with dynamic `Reply-To` dynamic configuration.
+   - Embedded Google Maps location for Kandy, Sri Lanka.
+
+---
+
+## 💻 Local Setup & Installation
+
+To run this project locally, follow these steps:
+
+1. **Clone the Repository**:
    ```bash
    git clone [https://github.com/Chamuduni003/yakunex-portfolio.git](https://github.com/Chamuduni003/yakunex-portfolio.git)
    cd yakunex-portfolio
