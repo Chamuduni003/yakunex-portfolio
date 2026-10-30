@@ -3,32 +3,70 @@
     "id": 1,
     "title": "ServeSmart Portal",
     "category": "Web",
-    "description": "Smart Service Provider Recommendation System connecting users with local service professionals.",
+    "tag": "Academic Project",
+    "shortDescription": "Smart Service Provider Recommendation System connecting users with local service professionals.",
+    "fullDescription": "ServeSmart is a full-stack platform that helps users find and hire verified local service providers in Colombo. Features include real-time service matching, location-based searching, and user rating systems.",
     "techStack": ["React", "Node.js", "Express", "MySQL", "Tailwind CSS"],
-    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1000&auto=format&fit=crop",
+    "githubUrl": "https://github.com/Chamuduni003/serve-smart.git",
+    "videoUrl": "https://drive.google.com/file/d/19r3tzoWhkkFhgCed-mY471AfnETM0HE8/view?usp=drive_link"
   },
   {
     "id": 2,
-    "title": "AirGuard Monitoring App",
-    "category": "Mobile",
-    "description": "Real-time gas and fire hazard monitoring app with instant telemetry alerts.",
-    "techStack": ["React Native", "ESP32", "IoT", "Firebase"],
-    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop"
+    "title": "Mise POS System",
+    "category": "Web",
+    "tag": "Web Application",
+    "shortDescription": "A sleek React-based Point of Sale application featuring product inventory management, stock monitoring, and real-time order processing.",
+    "fullDescription": "Mise POS is a modern Web-based Point of Sale system built with React to streamline billing and order management. It features product catalog management, stock status filtering (In stock / Low stock), and an intuitive cart interface for seamless cashier order processing with automatic subtotal and discount calculations.",
+    "techStack": ["React", "Tailwind CSS", "JavaScript", "Node.js"],
+    "image": "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg",
+    "githubUrl": "https://github.com/Chamuduni003/pos_system.git",
+    "videoUrl": "https://drive.google.com/file/d/1hpZGzk4nGpuUsky8dgz0EkRZyxWRC-ND/view?usp=drive_link"
   },
   {
     "id": 3,
-    "title": "Cuppa Bliss ERP",
-    "category": "Web",
-    "description": "Desktop & POS inventory management solution built for modern coffee shop chains.",
+    "title": "Coffee Shop Management System",
+    "category": "Desktop",
+    "tag": "Desktop Application",
+    "shortDescription": "A desktop-based coffee shop management system built with Java (OOP) and MySQL to streamline order processing, menu management, and inventory tracking.",
+    "fullDescription": "Cuppa Bliss ERP is a comprehensive desktop-based coffee shop management system built with Java (OOP) and MySQL. It provides seamless order processing, menu management, and inventory tracking capabilities for modern coffee shop chains.",
     "techStack": ["Java", "Swing", "MySQL", "Reports"],
-    "image": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=800&auto=format&fit=crop",
+    "githubUrl": "https://github.com/Chamuduni003/Cuppa_Bliss.git"
   },
   {
     "id": 4,
-    "title": "AI Predictive Analytics",
-    "category": "AI",
-    "description": "Intelligent client retention prediction engine utilizing neural machine learning models.",
-    "techStack": ["Python", "TensorFlow", "FastAPI", "React"],
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=800&auto=format&fit=crop"
+    "title": "Laravel CRUD Management System",
+    "category": "Web",
+    "tag": "Web Application",
+    "shortDescription": "A robust CRUD application built with Laravel and MySQL for managing dynamic data and user records.",
+    "fullDescription": "A full-featured web application built using the Laravel framework following the MVC pattern. It enables seamless Create, Read, Update, and Delete (CRUD) operations with database management, dynamic forms, and structured routing.",
+    "techStack": ["Laravel", "PHP", "MySQL", "Tailwind CSS"],
+    "image": "https://images.pexels.com/photos/3184325/pexels-photo-3184325.jpeg",
+    "githubUrl": "https://github.com/Chamuduni003/laravel-CRUD",
+    "videoUrl": "https://drive.google.com/file/d/11BLQ2n1x69xy4ektTZXO_1TjBTYRyUHj/view?usp=drive_link"
+  },
+  {
+    "id": 5,
+    "title": "Yakunex Portfolio",
+    "category": "Web",
+    "tag": "Corporate Website",
+    "shortDescription": "A high-performance corporate portfolio website featuring rich interactive UI elements and responsive layouts.",
+    "fullDescription": "Official corporate web platform designed for Yakunex Technologies to highlight agency services, modern product portfolio, and contact workflows.",
+    "techStack": ["React 18", "Vite", "Tailwind CSS", "Three.js", "Framer Motion", "JavaScript"],
+    "image": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?q=80&w=800&auto=format&fit=crop",
+    "githubUrl": " https://github.com/Chamuduni003/yakunex-portfolio.git"
+  },
+  {
+    "id": 6,
+    "title": "AirGuard IoT System",
+    "category": "IoT",
+    "tag": "IoT Hardware",
+    "shortDescription": "An autonomous fire and gas alerting system utilizing ESP32, MQ-2, LM35 sensors, and visual LCD notifications.",
+    "fullDescription": "Smart IoT hardware prototype that monitors ambient temperature, hazardous gas concentration, and sends real-time alerting signals.",
+    "techStack": ["ESP32", "C++", "IoT Sensors", "Hardware"],
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=800&auto=format&fit=crop",
+    "pcbLink": "https://drive.google.com/file/d/1m3_gtJUSzZNugeQPpRIodkKyZDeXqykC/view?usp=sharing"
+
   }
 ]

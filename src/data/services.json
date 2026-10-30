@@ -1,38 +1,114 @@
 [
   {
-    "id": 1,
-    "title": "Software Development",
-    "description": "Custom enterprise desktop & web application development tailored to streamline client operations.",
-    "icon": "Code2"
+    "id": "01",
+    "title": "Software development",
+    "description": "Custom apps • Business systems",
+    "icon": "Code2",
+    "techStack": ["Java", "C#", ".NET", "MySQL"]
   },
   {
-    "id": 2,
-    "title": "Web Development",
-    "description": "Modern, fast, and fully responsive websites built using modern JavaScript stacks.",
-    "icon": "Globe"
+    "id": "02",
+    "title": "Web development",
+    "description": "Websites • Portals • APIs",
+    "icon": "Globe",
+    "techStack": ["React", "Node.js", "Express", "Tailwind"]
   },
   {
-    "id": 3,
-    "title": "Mobile Apps",
-    "description": "Cross-platform iOS and Android mobile solutions with sleek, intuitive user experiences.",
-    "icon": "Smartphone"
+    "id": "03",
+    "title": "Mobile apps",
+    "description": "Android • iOS • Cross-platform",
+    "icon": "Smartphone",
+    "techStack": ["Flutter", "React Native", "Firebase"]
   },
   {
-    "id": 4,
-    "title": "AI & ML",
-    "description": "Intelligent business automation, data analytics, and custom machine learning algorithms.",
-    "icon": "Brain"
+    "id": "04",
+    "title": "UI/UX & graphic design",
+    "description": "Prototypes • Brand identity",
+    "icon": "Layout",
+    "techStack": ["Figma", "Adobe XD", "Canva"]
   },
   {
-    "id": 5,
+    "id": "05",
+    "title": "AI & machine learning",
+    "description": "Chatbots • Predictive solutions",
+    "icon": "Brain",
+    "techStack": ["Python", "TensorFlow", "OpenAI"]
+  },
+  {
+    "id": "06",
     "title": "Cloud & DevOps",
-    "description": "Scalable cloud deployment, infrastructure management, and continuous development pipelines.",
-    "icon": "Cloud"
+    "description": "Deployment • CI/CD • Monitoring",
+    "icon": "Cloud",
+    "techStack": ["AWS", "Docker", "Kubernetes"]
   },
   {
-    "id": 6,
+    "id": "07",
     "title": "Cybersecurity",
-    "description": "Comprehensive security audits, vulnerability scanning, and robust endpoint protection.",
-    "icon": "ShieldCheck"
+    "description": "Assessments • Secure development",
+    "icon": "ShieldCheck",
+    "techStack": ["Pen Testing", "Audits", "OAuth2"]
+  },
+  {
+    "id": "08",
+    "title": "Networking & infrastructure",
+    "description": "Networks • Servers • Wi-Fi",
+    "icon": "Network",
+    "techStack": ["Cisco", "VPN", "DNS"]
+  },
+  {
+    "id": "09",
+    "title": "Database management",
+    "description": "Design • Administration • Recovery",
+    "icon": "Database",
+    "techStack": ["MySQL", "PostgreSQL", "MongoDB"]
+  },
+  {
+    "id": "10",
+    "title": "E commerce & digital business",
+    "description": "Online stores • Payment integration",
+    "icon": "ShoppingCart",
+    "techStack": ["Stripe", "WooCommerce", "MERN"]
+  },
+  {
+    "id": "11",
+    "title": "IT consulting & support",
+    "description": "Planning • Troubleshooting",
+    "icon": "Headphones",
+    "techStack": ["24/7 Support", "Architecture"]
+  },
+  {
+    "id": "12",
+    "title": "Digital marketing & SEO",
+    "description": "SEO • Social • Analytics",
+    "icon": "TrendingUp",
+    "techStack": ["Google Analytics", "SEO", "Ads"]
+  },
+  {
+    "id": "13",
+    "title": "IoT & emerging technology",
+    "description": "Sensors • Smart systems",
+    "icon": "Cpu",
+    "techStack": ["ESP32", "Arduino", "MQTT"]
+  },
+  {
+    "id": "14",
+    "title": "Quality assurance & testing",
+    "description": "Manual • Automated • API testing",
+    "icon": "CheckCircle2",
+    "techStack": ["Postman", "Selenium", "Jest"]
+  },
+  {
+    "id": "15",
+    "title": "Automation & integration",
+    "description": "Workflows • Third-party APIs",
+    "icon": "Workflow",
+    "techStack": ["Zapier", "REST API", "Webhooks"]
+  },
+  {
+    "id": "16",
+    "title": "IT education & training",
+    "description": "Mentoring • Practical projects",
+    "icon": "GraduationCap",
+    "techStack": ["Workshops", "Courses"]
   }
 ]
