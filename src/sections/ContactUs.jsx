@@ -187,7 +187,7 @@ export default function ContactUs() {
                   <div>
                     <h4 className="text-sm font-bold text-white">Phone</h4>
                     <p className="text-slate-400 text-xs mt-1">
-                      (+94) 74 283 6771
+                      (+94) 74 369 2999
                     </p>
                   </div>
                 </div>
@@ -200,7 +200,7 @@ export default function ContactUs() {
                   <div>
                     <h4 className="text-sm font-bold text-white">Email</h4>
                     <p className="text-slate-400 text-xs mt-1">
-                      chamudunihitihamu1204@gmail.com
+                      yakunextechnologies@gmail.com
                     </p>
                   </div>
                 </div>
@@ -223,7 +223,7 @@ export default function ContactUs() {
 
             {/* Bottom Footer Accent */}
             <div className="pt-6 border-t border-slate-800/80 mt-6 text-center text-xs text-slate-500">
-              Global Operations Hub • Kandy, Sri Lanka
+               Kandy, Sri Lanka
             </div>
           </div>
 
